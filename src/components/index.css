@@ -1,0 +1,74 @@
+body {
+  padding: 30px;
+  background-color: #323232; /* Cor de fundo mais suave */
+  color: #f2f2f2; /* Melhor contraste de texto */
+  font-family: 'Gelasio', serif; /* Aplicar fonte consistente */
+}
+
+h1 {
+  font-family: 'Julius Sans One', sans-serif; /* Garantir fallback */
+  font-size: 48px; /* Tamanho de fonte maior */
+  text-align: center;
+  margin: 20px 0; /* Ajuste de margem */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no texto para melhor leitura */
+}
+
+h2{
+  font-family: 'Julius Sans One', sans-serif; /* Garantir fallback */
+  font-size: 36px; /* Tamanho de fonte maior */
+  text-align: center;
+  margin: 20px 0; /* Ajuste de margem */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra no texto para melhor leitura */
+
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0; /* Ajuste de margem */
+}
+
+.exclude {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #531313, #d90000); /* Gradiente para botão */
+  border: none; /* Remover borda */
+  border-radius: 60px 14px;
+  color: #000000;
+  font-family: 'Gelasio', serif;
+  font-size: 20px;
+  line-height: 1.5; /* Ajuste de altura da linha */
+  margin: 10px; /* Espaçamento entre botões */
+  padding: 15px 30px; /* Ajuste de padding */
+  text-align: center;
+  cursor: pointer; /* Cursor de mão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transição suave */
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #a1a326, #d4d900); /* Gradiente para botão */
+  border: none; /* Remover borda */
+  border-radius: 60px 14px;
+  color: #000000;
+  font-family: 'Gelasio', serif;
+  font-size: 20px;
+  line-height: 1.5; /* Ajuste de altura da linha */
+  margin: 10px; /* Espaçamento entre botões */
+  padding: 15px 30px; /* Ajuste de padding */
+  text-align: center;
+  cursor: pointer; /* Cursor de mão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidade */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transição suave */
+}
+
+.botao:hover, .botao:focus {
+  background: linear-gradient(145deg, #d4d900, #f9fd00); /* Gradiente invertido */
+  color: #1a1a1a;
+  transform: translateY(-5px); /* Efeito de "levantar" */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+}
