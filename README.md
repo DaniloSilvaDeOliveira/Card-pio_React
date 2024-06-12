@@ -33,14 +33,8 @@ Para executar o projeto localmente, siga os passos abaixo:
 2. Navegue até a pasta do projeto e instale as dependências com o comando `npm install`.
 3. Execute a aplicação com `npm start`. A aplicação será aberta no navegador padrão.
 
-## Contribuindo
-
-Contribuições são sempre bem-vindas! Se você tem alguma sugestão para melhorar o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-## Agradecimentos
-
-Obrigado por visitar nosso projeto. Estamos ansiosos para servir você com nosso cardápio digital!
+## Contribuintes
+Este projeto teve a contribuição dos seguintes membros:
+ * Danilo Silva de Oliveira 
+ * Juliana de Lopes Carvalho
+ * Luma sousa
